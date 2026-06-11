@@ -1,37 +1,106 @@
-# Environment & secrets
+﻿# Environment / secrets
 .env
-.env.*
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep example files (optional - remove if you don't want any env checked in)
 !.env.example
+!.env.sample
 
 # Python virtual environments
-.venv/
 venv/
+.venv/
 env/
+ENV/
+env.bak/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Python bytecode & caches
+# Python cache / bytecode
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
+*.class
+*.so
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
 
-# Runtime data & logs
-**/data/cache.db
-**/data/notes.json
-**/data/reminders.db
-**/data/logs/
-*.log
-
-# Offline speech models (download separately — see README)
-**/data/vosk-model*/
-
-# IDE & OS
-.vscode/
+# IDE / editors
 .idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-# Android client (separate repository / not versioned with the Python backend)
+
+# Serious / sensitive / large data files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+data/
+datasets/
+backups/
+dumps/
+*.bak
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+*.csr
+*.jks
+*.keystore
+*.log
+*.json.bak
+*.csv.bak
+large_files/
+*.zip
+*.tar.gz
+*.rar
+
+# Explicitly ignore the Android folder
 AIAssistantAndroid/
+AIAssistantAndroid
