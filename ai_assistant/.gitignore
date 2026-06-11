@@ -1,0 +1,34 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data (runtime artifacts)
+data/cache.db
+data/notes.json
+data/reminders.db
+data/logs/
+*.log
+logs/
+
+# Offline speech models (large — download separately)
+data/vosk-model*/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

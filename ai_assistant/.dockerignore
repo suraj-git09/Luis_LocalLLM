@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.env
+data/cache.db
+data/notes.json
+data/reminders.db
+data/logs/
+data/vosk-model*/
+.git/
+.gitignore

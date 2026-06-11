@@ -1,0 +1,16 @@
+# Core
+python-dotenv>=1.0.0
+openai>=1.30.0
+flask>=3.0.0
+google-auth>=2.23.0  # For verifying Google ID tokens in /api/auth/google (hardened)
+
+# Voice (optional — install for voice mode)
+sounddevice>=0.4.6
+numpy>=1.26.0
+vosk>=0.3.45
+faster-whisper>=1.0.0
+pyttsx3>=2.90
+
+# Dev / test
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

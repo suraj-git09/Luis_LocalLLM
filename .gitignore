@@ -33,3 +33,5 @@ build/
 .idea/
 .DS_Store
 Thumbs.db
+# Android client (separate repository / not versioned with the Python backend)
+AIAssistantAndroid/
